@@ -6,7 +6,6 @@ body {
 	font-size: 8pt;
 }
 
-
 .Banner {
   position: relative;
   text-align: center;
@@ -43,6 +42,7 @@ body {
   height: 1070px;
   float: right;
   background-color: #A2B964;
+  line-height: 15px;
 }
 
 #LeftSection {
@@ -64,7 +64,7 @@ body {
 
 .StyleBold {
 	font-weight: bold;
-  padding-top:5px;
+  padding-top: 5px;
 }
 
 #RottenAlign img {
