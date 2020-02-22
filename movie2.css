@@ -52,7 +52,9 @@ body {
 }
 
 #RottenAlign {
-  background-image:url("rottenlarge.png");
+  background-image:url("Skeleton2_files/rottenlargebg.png");
+  background-repeat: repeat-x;
+  overflow: hidden;
   font-size: 48pt;
   color: red;
   font-weight: bold;
