@@ -1,8 +1,6 @@
 /*Styling CSS for tmnt2.html*/
 
 body {
-  margin:0;
-  padding:0;
   background-image: url("Skeleton2_files/moviebg.png");
 	font-family: Verdana, Geneva, sans-seri;
 	font-size: 8pt;
@@ -21,7 +19,7 @@ body {
   text-shadow: 3px 3px #999999;
 }
 
-#RightSection {
+#Content {
 	margin-left: auto;
   margin-right: auto;
 	width: 800px;
@@ -31,7 +29,7 @@ body {
 	overflow: hidden;
 }
 
-#TextDesp {
+#RightSection {
   font-family:"Arial";
   padding: 10px;
   padding-top: 0px;
@@ -39,14 +37,15 @@ body {
 
 #MoviePoster {
   width: 250px;
+  height: 1070px;
   float: right;
   background-color: #A2B964;
 }
 
 #LeftSection {
-  width:550px;
+  width: 550px;
   position: relative;
-  float :left;
+  float: left;
 }
 
 #RottenAlign {
@@ -100,9 +99,10 @@ body {
   background-color:#A2B964;
   padding:5px;
   position: absolute;
-	bottom:-128px;
-	width: 550px;
+	bottom: -11px;
+	width: 150%;
 	text-align: center;
+  display: block;
 }
 
 p img {
@@ -112,6 +112,6 @@ p img {
 
 #Position {
   position: fixed;
-  right:0;
-  bottom:0;
+  right: 0;
+  bottom: 0;
 }
