@@ -9,7 +9,7 @@ body {
 }
 
 #Banner {
-  background-image: url("http://ws.mss.icics.ubc.ca/~cics516/cur/hw/hw2/images/bannerbg.png");
+  background-image: url("rancidbanner.png");
 	text-align:center;
 }
 
@@ -19,15 +19,6 @@ body {
 	text-align: center;
 	font-weight: bold;
   text-shadow: 3px 3px #999999;
-}
-
-#RottenAlign {
-  background-image:url("http://ws.mss.icics.ubc.ca/~cics516/cur/hw/hw2/images/rbg.png");
-  font-size: 48pt;
-  color: red;
-  font-weight: bold;
-  height: 83px;
-  vertical-align: bottom;
 }
 
 #RightSection {
@@ -42,20 +33,29 @@ body {
 
 #TextDesp {
   font-family:"Arial";
-  padding:10px;
-  padding-top:0px;
+  padding: 10px;
+  padding-top: 0px;
 }
 
 #MoviePoster {
-  width:250px;
-  float:right;
-  background-color:#A2B964;
+  width: 250px;
+  float: right;
+  background-color: #A2B964;
 }
 
 #LeftSection {
   width:550px;
-  position:relative;
-  float:left;
+  position: relative;
+  float :left;
+}
+
+#RottenAlign {
+  background-image:url("rottenlarge.png");
+  font-size: 48pt;
+  color: red;
+  font-weight: bold;
+  height: 83px;
+  vertical-align: bottom;
 }
 
 .StyleBold {
