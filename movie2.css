@@ -6,24 +6,12 @@ body {
 	font-size: 8pt;
 }
 
-/* .Banner {
-	text-align:center;
-} */
 
 .Banner {
   position: relative;
   text-align: center;
-}
-
-.MainBanner {
-  position: relative;
-  text-align: center;
-  display: inline-block;
-}
-
-.BannerBackground {
-  position: absolute;
-  text-align: center;
+  background-image: url("Skeleton2_files/rancidbannerbg.png");
+  background-repeat: repeat-x;
 }
 
 #MovieTitle {
