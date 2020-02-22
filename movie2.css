@@ -6,9 +6,24 @@ body {
 	font-size: 8pt;
 }
 
-#Banner {
-  background-image: url("rancidbanner.png");
+/* .Banner {
 	text-align:center;
+} */
+
+.Banner {
+  position: relative;
+  text-align: center;
+}
+
+.MainBanner {
+  position: relative;
+  text-align: center;
+  display: inline-block;
+}
+
+.BannerBackground {
+  position: absolute;
+  text-align: center;
 }
 
 #MovieTitle {
@@ -114,4 +129,9 @@ p img {
   position: fixed;
   right: 0;
   bottom: 0;
+}
+
+.Style
+{
+    opacity: 0.5;
 }
