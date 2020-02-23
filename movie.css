@@ -32,18 +32,18 @@ body {
   box-shadow: 5px 5px 5px grey;
 }
 
+#MoviePoster {
+  width: 250px;
+  height: 1275px;
+  float: right;
+  background-color: #A2B964;
+  line-height: 15px;
+}
+
 #RightSection {
   font-family:"Arial", serif;
   padding: 10px;
   padding-top: 0px;
-}
-
-#MoviePoster {
-  width: 250px;
-  height: 1250px;
-  float: right;
-  background-color: #A2B964;
-  line-height: 15px;
 }
 
 #InfoList {
